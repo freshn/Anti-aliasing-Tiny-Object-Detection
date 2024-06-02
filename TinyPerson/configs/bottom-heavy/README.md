@@ -16,7 +16,7 @@ mmdet = 2.19.0
 This repository is based on the [SSPNet](https://github.com/jbwang1997/OBBDetection/blob/master/docs/oriented_model_starting.md#prepare-dataset). Please refer to [Installation](https://github.com/MingboHong/SSPNet/blob/master/README.md#how-to-use) for installation instructions.
 
 ## Usage
-### Download the pre-training checkpoint
+### Download the pre-trained checkpoint
 Download the [bh_resnet.pth](https://drive.google.com/file/d/12XZE6wMNum0DedhuBufS4vl1m2sPMz2L) and put it under the folder `Anti-aliasing-Tiny-Object-Detection/TinyPerson/ckpt/`.
 
 ### Training
