@@ -17,7 +17,7 @@ This repository is based on the [SSPNet](https://github.com/jbwang1997/OBBDetect
 
 ## Usage
 ### Download the pre-training checkpoint
-Download the [bh_resnet.pth](https://drive.google.com/file/d/12XZE6wMNum0DedhuBufS4vl1m2sPMz2L/view) and put it under the folder `Anti-aliasing-Tiny-Object-Detection/TinyPerson/ckpt/`.
+Download the [bh_resnet.pth](https://drive.google.com/file/d/12XZE6wMNum0DedhuBufS4vl1m2sPMz2L) and put it under the folder `Anti-aliasing-Tiny-Object-Detection/TinyPerson/ckpt/`.
 
 ### Training
 ```
@@ -35,7 +35,7 @@ More usage please refer to [mmdetection](https://github.com/open-mmlab/mmdetecti
   
 | Configuration | mAP<sub>tiny</sub> | mAP<sub>tiny1</sub> | mAP<sub>tiny2</sub> | mAP<sub>tiny3</sub> | Checkpoint |
 |:------------------------|:--------:|:--------:|:--------:|:--------:|:--------:|
-| faster_rcnn_bh50_sspnet | 59.23 | 48.19 | 61.39 | 67.34 | [Google Drive](https://drive.google.com/file/d/14E9wmF_-anIP0YP73ub5SZ8di-RsAA7R/view)                  
+| faster_rcnn_bh50_sspnet | 59.23 | 48.19 | 61.39 | 67.34 | [Google Drive](https://drive.google.com/file/d/14E9wmF_-anIP0YP73ub5SZ8di-RsAA7R)                  
 
 ## Citation
 
@@ -45,9 +45,6 @@ If you use this codebase or idea, please cite our paper:
   author       = {Jinlai Ning and
                   Haoyan Guan and
                   Michael W. Spratling},
-  editor       = {Petia Radeva and
-                  Giovanni Maria Farinella and
-                  Kadi Bouatouch},
   title        = {Rethinking the Backbone Architecture for Tiny Object Detection},
   booktitle    = {Proceedings of the 18th International Joint Conference on Computer
                   Vision, Imaging and Computer Graphics Theory and Applications, {VISIGRAPP}
@@ -56,10 +53,6 @@ If you use this codebase or idea, please cite our paper:
   publisher    = {{SCITEPRESS}},
   year         = {2023},
   url          = {https://doi.org/10.5220/0011643500003417},
-  doi          = {10.5220/0011643500003417},
-  timestamp    = {Thu, 23 Mar 2023 13:12:08 +0100},
-  biburl       = {https://dblp.org/rec/conf/visapp/NingGS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
